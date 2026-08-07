@@ -28,7 +28,7 @@ description:           >
   Personal site of Nimrod Dickler — engineering, infrastructure, and the things I build.
 
 # A shorter description for the sidebar.
-tagline:               Engineering & infrastructure
+tagline:               Engineering, Infrastructure & Design
 
 # A list of keywords for your blog
 keywords:              []
@@ -51,6 +51,8 @@ menu:
     url:               /about/
   - title:             Posts
     url:               /posts/
+  - title:             Education
+    url:               /education/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..

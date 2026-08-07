@@ -12,3 +12,19 @@
     margin: 1rem 0;
   }
 }
+
+.sidebar-nav-children {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 0 .75rem;
+
+  .sidebar-nav-item {
+    font-size: 0.9em;
+    opacity: 0.9;
+  }
+}
+
+.sidebar-nav-label {
+  display: inline-block;
+  margin-bottom: .5rem;
+}
