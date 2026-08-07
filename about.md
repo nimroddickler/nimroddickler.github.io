@@ -1,6 +1,5 @@
 ---
 layout: about
-image: /assets/img/blog/hydejack-9.jpg
 description: >
   Personal site of Nimrod Dickler — engineering, infrastructure, and the things I build.
 hide_description: true
@@ -14,9 +13,6 @@ hide_description: true
 
 Engineer focused on infrastructure, reliability, and the systems behind modern software.
 {:.lead}
-
-1. this list will be replaced by the toc
-{:toc .large-only}
 
 I work on infrastructure and platform engineering — the kind of work that keeps services running, teams shipping, and complexity manageable.
 

@@ -51,18 +51,10 @@ menu:
     url:               /about/
   - title:             Posts
     url:               /posts/
-  - title:             Example
-    url:               /example/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
-legal:
-  - title:             LICENSE
-    url:               /LICENSE/
-  - title:             NOTICE
-    url:               /NOTICE/
-  - title:             CHANGELOG
-    url:               /CHANGELOG/
+legal:                 []
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             © 2026. All rights reserved.
@@ -287,7 +279,7 @@ hydejack:
 collections:
   featured_categories:
     permalink:         /:name/
-    output:            true
+    output:            false
 
   featured_tags:
     permalink:         /tag-:name/
@@ -311,6 +303,11 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - functions
+  # Hydejack starter samples — kept in the repo as writing references, not published
+  - example
+  - docs
+  - CHANGELOG.md
+  - NOTICE.md
 include:
   - _routes.json
   - .well-known
