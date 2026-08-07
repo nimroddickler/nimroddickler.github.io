@@ -25,3 +25,4 @@ This site is built with [Hydejack](https://hydejack.com/) and [Jekyll](https://j
 ## Elsewhere
 
 - [GitHub](https://github.com/nimroddickler)
+- [LinkedIn](https://il.linkedin.com/in/nimroddickler)
