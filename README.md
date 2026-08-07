@@ -1,20 +1,25 @@
-# Hydejack Starter Kit
+# nimroddickler.github.io
 
-A quicker, cleaner way to get started blogging with [Hydejack](https://hydejack.com/).
+Personal site powered by [Hydejack](https://hydejack.com/) and hosted on [GitHub Pages](https://pages.github.com/).
 
-## Quick Start
-### Running locally
-1. Clone repository (git users), or [download] and unzip.
-2. Open terminal, `cd` into root directory (where `_config.yml` is located)
-3. Run `bundle install` [^1]
-4. Run `bundle exec jekyll serve`
-5. Open <http://localhost:4000/hydejack-starter-kit/>
+**Live site:** https://nimroddickler.github.io/
 
-## What's next?
-* Open files and read the comments
-* Read the [docs](https://hydejack.com/docs/)
-* Buy the [PRO version](https://hydejack.com/download/) to get the project and resume layout, newsletter subscription box, custom forms, and more.
+## Local development
 
-[^1]: Requires Bundler. Install with `gem install bundler`.
+```bash
+bundle install
+bundle exec jekyll serve
+```
 
-[download]: https://github.com/hydecorp/hydejack-starter-kit/archive/master.zip
+Open http://localhost:4000/
+
+## Deploy
+
+Pushes to `master` trigger the GitHub Actions workflow in `.github/workflows/jekyll.yml`, which builds the site and deploys to GitHub Pages.
+
+## Customize
+
+- Site settings: `_config.yml`
+- Author profile: `_data/authors.yml`
+- About page: `about.md`
+- New posts: add markdown files under `_posts/` (or `example/_posts/` for the sample section)
